@@ -38,6 +38,7 @@ export const AddCategory = ({ setCategories, categories }) => {
 					handleInputChange(e);
 				}}
 			/>
+			<input type="submit" value="Get GIFS!!!" />
 		</form>
 	);
 };

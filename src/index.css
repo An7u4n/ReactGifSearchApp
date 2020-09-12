@@ -5,33 +5,46 @@
 }
 
 body {
-	padding: 60px;
+	background-color: rgb(36, 36, 36);
+	padding: 40px 120px;
 }
 
-input[type='text'] {
-	border: 2px solid black;
+h2 {
+	color: white;
+	font-size: 50px;
+}
+
+form {
+	height: 40px;
+	margin: 20px 0;
+}
+
+form input[type='text'] {
+	border: none;
 	border-radius: 5px;
 	color: gray;
 	font-size: 15px;
-	margin: 10px 0;
-	padding: 5px 10px;
+	height: 100%;
 	width: 40%;
 }
 
-input[type='submit'] {
+form input[type='submit'] {
 	background-color: rgb(78, 156, 156);
+	border: none;
 	border-radius: 5px;
-	padding: 15px 20px;
 	color: white;
 	font-size: 15px;
-	margin: 10px 0;
-	border: none;
+	height: 100%;
+	margin-left: 20px;
+	padding: 0 10px;
 }
 
 .category-title {
-	padding: 20px;
+	color: white;
 	font-size: 35px;
 	text-decoration: underline;
+	padding: 20px;
+	text-transform: capitalize;
 }
 
 .card-grid {
@@ -41,11 +54,20 @@ input[type='submit'] {
 
 .card {
 	align-content: center;
-	border: 1px solid gray;
+	border: 1px solid white;
 	border-radius: 5px;
 	margin-bottom: 10px;
 	margin-right: 10px;
 	overflow: hidden;
+}
+
+.card h4 {
+	color: white;
+}
+
+.card img {
+	border-radius: 5px;
+	height: 200px;
 }
 
 .card p {
